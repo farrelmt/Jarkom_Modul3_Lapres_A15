@@ -26,4 +26,12 @@ Muhammad Iqbal Humam     05111840000103
 
     ```Passwordnya : inipassw0rdta_a15```
     
-    d. 
+    d. Edit konfigurasi config
+    
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul2_Lapres_A15/blob/main/screenshot/7.3.png)
+    
+    e. Service squid restart
+    
+    f. Cek di firefox
+    
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul2_Lapres_A15/blob/main/screenshot/7.4.png)
