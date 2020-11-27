@@ -72,13 +72,13 @@ Muhammad Iqbal Humam     05111840000103
     
 10.Agar Anri bisa fokus mengerjakan TA, (10) setiap dia mengakses google.com, maka akan di redirect menuju monta.if.its.ac.id agar Anri selalu ingat untuk mengerjakan TA🙂.
 
-    a. pada squid.conf, tambahkan script yang di-block berikut :
+   a. pada squid.conf, tambahkan script yang di-block berikut :
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/10.1.png)
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/10.1.png)
     
-    b. pada acl.conf, tambahkan script yang di-block berikut :
+   b. pada acl.conf, tambahkan script yang di-block berikut :
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/10.2.png)
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/10.2.png)
 
 11. Untuk menandakan bahwa Proxy Server ini adalah Proxy yang dibuat oleh Anri, (11) Bu Meguri meminta Anri untuk mengubah error page default squid menjadi seperti berikut:
 Note : File error page bisa diunduh dengan cara wget 10.151.36.202/ERR_ACCESS_DENIED
