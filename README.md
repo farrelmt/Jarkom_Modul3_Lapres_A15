@@ -101,23 +101,22 @@ Note : File error page bisa diunduh dengan cara wget 10.151.36.202/ERR_ACCESS_DE
    
 12.Karena Bu Meguri dan Anri adalah tipe orang pelupa, maka untuk memudahkan mereka, Anri memiliki ide ketika menggunakan proxy cukup dengan mengetikkan domain janganlupa-ta.yyy.pw dan memasukkan port 8080.
 
-    a. instal bind di UML malang
+   a. instal bind di UML malang
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.1.png)
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.1.png)
     
-    b. tambahkan konfigurasi situs janganlupa-ta.a15.pw di named.conf.local di malang
+   b. tambahkan konfigurasi situs janganlupa-ta.a15.pw di named.conf.local di malang
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.2.png)
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.2.png)
     
-    c. ubah konfigurasi web janganlupa-ta.a15.pw sesuai gambar berikut
+   c. ubah konfigurasi web janganlupa-ta.a15.pw sesuai gambar berikut
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.3.png)
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.3.png)
     
-    d. ubah settingan proxy pada windows atau pada firefox dengan mengganti IP mojokerto dengan ```janganlupa-ta.a15.pw```
+   d. ubah settingan proxy pada windows atau pada firefox dengan mengganti IP mojokerto dengan ```janganlupa-ta.a15.pw```
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.4.png)
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.4.png)
     
-    e. hasil 
+   e. hasil 
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.5.png)
-
+   ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/12.5.png)
