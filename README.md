@@ -20,8 +20,10 @@ Muhammad Iqbal Humam     05111840000103
     
     c. Buat user login
     
-    apt-get install apache2-utils
+    ```apt-get install apache2-utils```
 
-    htpasswd -c /etc/squid/passwd userta_a15
+    ```htpasswd -c /etc/squid/passwd userta_a15```
 
-    Passwordnya : inipassw0rdta_a15
+    ```Passwordnya : inipassw0rdta_a15```
+    
+    d. 
