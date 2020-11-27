@@ -12,11 +12,11 @@ Muhammad Iqbal Humam     05111840000103
 
     a. Instal squid terlebih dahulu di mojokerto
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul2_Lapres_A15/blob/main/screenshot/7.1.png)
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/7.1.png)
     
     b. Setting Proxy pada Setting Windows / pada setting browser (firefox)
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul2_Lapres_A15/blob/main/screenshot/7.2.png)
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/7.2.png)
     
     c. Buat user login
     
@@ -28,10 +28,10 @@ Muhammad Iqbal Humam     05111840000103
     
     d. Edit konfigurasi config
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul2_Lapres_A15/blob/main/screenshot/7.3.png)
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/7.3.png)
     
     e. Service squid restart
     
     f. Cek di firefox
     
-    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul2_Lapres_A15/blob/main/screenshot/7.4.png)
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/7.4.png)
