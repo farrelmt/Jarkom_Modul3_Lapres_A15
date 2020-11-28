@@ -6,6 +6,53 @@ Muhammad Iqbal Humam     05111840000103
 
 **DHCP**
 
+1. Membuat topologi jaringan sesuai soal
+
+    a. Atur topologi jaringan pada putty sesuai soal seperti dibawah
+    
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/1.1.PNG)
+    
+    b. Jalankan topologinya, jika bisa maka topologi telah berhasil
+
+2. Mengatur topologi uml sesuai soal 
+
+    a. Install DHCP Relay di SURABAYA dengan command apt-get install isc-dhcp-relay
+    
+    b. Pada /etc/sysctl.conf tambahkan   net.ipv4.ip_forward=1 dan net.ipv4.conf.all.accept_source_route = 1
+    
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/2.1.PNG)
+    
+    c. Pada isc-dhcp-relay tambahkan interfaces seperti dibawah
+    
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/2.2.PNG)
+    
+    d.	Install DHPC Server di TUBAN dengan command apt-get install isc-dhcp-server
+    
+    e.	Pada dhcpd.conf tambahkan subnet dibawah untuk server
+    
+    f.	Install Squid di MOJOKERTO sebagai Proxy 
+
+    g.	Untuk semua client buat seperti dibawah
+    
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/2.3.PNG)
+
+3. Untuk mengatur client subnet 1 hanya bisa mendapatkan IP 192.168.0.10 sampai 192.168.0.100 dan 192.168.0.110 sampai 192.168.0.200 dapat diatur di dhcpd.conf dengan mengatur range seperti gambar dibawah 
+
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/3.1.PNG)
+    
+4. Untuk mengatur client subnet 3 hanya bisa mendapatkan range IP 192.168.1.50 sampai 192.168.170 dapat diatur di dhcpd.conf dengan mengatur range seperti gambar dibawah 
+
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/4.1.PNG)
+
+5. Agar client mendapatkan DNS Malang dan DNS 202.46.129,2 dari DHCP maka perlu ditambahkan option domain-name-servers di dhcpd.conf seperti gambar dibawah
+
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/5.1.PNG)
+    
+6. Agar client pada subnet 1 hanya dapat meminjam alamat IP selama 5 menit dan client pada subnet 3 selama 10 menit maka pada dhcpd.conf pada masing-masing subnetnya dapat diatur default-lease-timenya seperti gambar dibawah 
+
+    ![fotooooo](https://github.com/farrelmt/Jarkom_Modul3_Lapres_A15/blob/main/screenshot/5.1.PNG)
+
+
 **PROXY**
 
 7. Pertama, akses ke proxy hanya bisa dilakukan oleh Anri sendiri sebagai user TA. (7) User autentikasi milik Anri memiliki format: User : userta_yyy Password : inipassw0rdta_yyy
